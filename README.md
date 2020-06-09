@@ -1,5 +1,11 @@
 # sleep
 
+## About
+
+Windows has no simple tool or command to wait for a certain amount of time while executing a batch file.
+
+And because I already have rust installed on all my computers, I thought it would be fitting to create a simple sleep command which can be installed directly through cargo.
+
 ## Installation & Update
 
 With cargo:
