@@ -16,8 +16,17 @@ fn get_args() -> Result<Args, Box<dyn std::error::Error>> {
         )
         .get_matches();
 
+    let time_string = matches.value_of("time").unwrap();
+
+    let time = if let Ok(time) = time_string.parse() {
+        time
+    } else {
+        eprintln!("\"{}\" is not a valid number!", time_string);
+        std::process::exit(1);
+    };
+
     Ok(Args {
-        time: matches.value_of("time").unwrap().parse()?,
+        time
     })
 }
 
