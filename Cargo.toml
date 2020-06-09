@@ -1,0 +1,17 @@
+[package]
+name = "sleep"
+version = "1.0.0"
+authors = ["hardliner66 <hardliner66@gmail.com>"]
+edition = "2018"
+
+description = "Create a command from a value of an INI-file and execute it."
+license = "MIT OR Apache-2.0"
+categories = ["command-line-utilities"]
+keywords = ["sleep"]
+repository = "https://github.com/hardliner66/sleep-rs"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33"
