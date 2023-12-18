@@ -4,7 +4,7 @@ version = "1.0.2-alpha.0"
 authors = ["hardliner66 <hardliner66@gmail.com>"]
 edition = "2018"
 
-description = "Create a command from a value of an INI-file and execute it."
+description = "simple sleep tool for windows"
 license = "MIT OR Apache-2.0"
 categories = ["command-line-utilities"]
 keywords = ["sleep"]
